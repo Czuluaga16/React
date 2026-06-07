@@ -1,10 +1,15 @@
+
 import './App.css'
+import { Header } from './components/Header/Header.jsx'
+import { Main } from './components/Main/Main.jsx'
+import { Footer } from './components/Footer/Footer.jsx'
 
 export const App = () => {
-  return ( 
+  return (
     <div>
-      <h1> hola mundo</h1>
-      <p></p>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   )
 }    
